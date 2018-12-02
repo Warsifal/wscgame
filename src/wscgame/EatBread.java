@@ -142,11 +142,11 @@ public class EatBread extends JPanel {
 
     public void paint(Graphics g) {
         g.drawImage(imgBackground, 0, 0, null);            //画背景图
-        paintScoreAndLives(g);                                              //画分和画命
         paintWang(g);                                                       //画王思聪对象
         paintBread(g);                                                      //画面包对象
         paintHeadingBread(g);                                               //画面包0
         paintHeadingWang(g);                                                //画王思聪0
+        paintScoreAndLives(g);                                              //画分和画命
         paintState(g);                                                      //画状态
     }
 
